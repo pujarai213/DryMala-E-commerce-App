@@ -8,9 +8,8 @@ const Navbar = () => {
         </div>
         <div className="flex gap-15 text-black font-montserrat">
           <Link to="/" className="hover:text-green-300 transition ">Home</Link>
-          <Link to="/product" className="hover:text-green-300 transition">Product</Link>
-          <Link to="/about" className="hover:text-green-300 transition">About</Link>
-          <Link to="/contact" className="hover:text-green-300 transition">Contact</Link>
+          <Link to="/shop" className="hover:text-green-300 transition">Shop</Link>
+          <Link to="/collection" className="hover:text-green-300 transition">Collection</Link>
         </div>
         <div>
           <p>Cart</p>

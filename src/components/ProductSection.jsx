@@ -1,19 +1,12 @@
+// import products from "../data/products";
 import ProductCard from "./ProductCard";
-
-const products = [
-  { id: 1, image: "/apple.jpg", name: "Apple", price: "1600" },
-  { id: 2, image: "/orange.png", name: "Orange", price: "1500" },
-  { id: 3, image: "/meat.png", name: "Meat", price: "2500" },
-  { id: 3, image: "/meat.png", name: "Meat", price: "2500" },
-  { id: 4, image: "/banana.png", name: "Banana", price: "1200" },
-  { id: 5, image: "/banana.png", name: "Banana", price: "1200" },
-];
 
 const ProductSection = ({
   heading,
   layoutClass = "",
   containerClass = "",
   limit,
+  products
 }) => {
   //limit logic
 
@@ -27,9 +20,7 @@ const ProductSection = ({
         {displayProducts.map((product) => (
           <ProductCard
             key={product.id}
-            image={product.image}
-            name={product.name}
-            price={product.price}
+            product={product}
           />
         ))}
       </div>

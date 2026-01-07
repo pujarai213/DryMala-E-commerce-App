@@ -22,6 +22,11 @@ const Shop = () => {
   if (sort === "high") {
     filteredProducts.sort((a, b) => b.price - a.price);
   }
+  console.log({
+    category,
+    sort,
+    filteredProducts,
+  });
 
   return (
     <div className="mt-20 flex max-w-7xl mx-auto gap-5">

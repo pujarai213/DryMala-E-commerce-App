@@ -6,7 +6,7 @@ const ProductSection = ({
   layoutClass = "",
   containerClass = "",
   limit,
-  products
+  products 
 }) => {
   //limit logic
 

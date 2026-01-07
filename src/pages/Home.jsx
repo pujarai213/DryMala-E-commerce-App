@@ -1,5 +1,6 @@
-import React from "react";
 import Hero from "../components/Hero";
+import products from "../data/products.js";
+
 import ProductSection from "../components/ProductSection";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         limit={4}
         layoutClass="flex justify-center flex-nowrap overflow-x-auto px-6"
         containerClass="max-w-8xl mx-auto"
+        products = {products}
         
       />
     </>

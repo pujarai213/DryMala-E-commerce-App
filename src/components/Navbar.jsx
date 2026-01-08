@@ -7,12 +7,18 @@ const Navbar = () => {
           <img src="/logo.png" alt="DryMala Logo" className="h-14 w-auto" />
         </div>
         <div className="flex gap-15 text-black font-montserrat">
-          <Link to="/" className="hover:text-green-300 transition ">Home</Link>
-          <Link to="/shop" className="hover:text-green-300 transition">Shop</Link>
-          <Link to="/collection" className="hover:text-green-300 transition">Collection</Link>
+          <Link to="/" className="hover:text-green-300 transition ">
+            Home
+          </Link>
+          <Link to="/shop" className="hover:text-green-300 transition">
+            Shop
+          </Link>
+          <Link to="/collection" className="hover:text-green-300 transition">
+            Collection
+          </Link>
         </div>
         <div>
-          <p>Cart</p>
+          <img src="/shopping-cart.png" alt="cart" className="h-6 w-auto px-4 cursor-pointer" />
         </div>
       </div>
     </nav>
